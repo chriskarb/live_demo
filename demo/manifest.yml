@@ -1,0 +1,8 @@
+---
+applications:
+- name: livedemo
+memory: 768M
+instances: 1
+path: target/demo-0.0.1-SNAPSHOT.jar
+env:
+  JBP_CONFIG_DEBUG: '{enabled: true}'
